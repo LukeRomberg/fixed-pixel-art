@@ -1,0 +1,61 @@
+body{
+  text-align: center;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid {
+  border: 1px solid black;
+  height: 1vw;
+  width: 1vw;
+}
+
+h1 {
+  color: GREEN;
+}
+
+.artArea {
+  display: flex;
+  width: 80vw;
+  height: 70vh;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.red {
+  border: 1px solid red;
+  height: 1vw;
+  width: 1vw;
+  background-color: red;
+}
+
+.blue {
+  border: 1px solid blue;
+  height: 1vw;
+  width: 1vw;
+  background-color: blue;
+}
+
+.pallete_Red {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 25px;
+}
+
+.pallete_Blue {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 25px;
+}
+
+.palette {
+  display: flex;
+  flex-direction: row;
+}
